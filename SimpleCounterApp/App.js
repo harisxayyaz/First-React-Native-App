@@ -8,13 +8,7 @@
 import React, {useState} from 'react';
 
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
   Text,
-  Button,
-  useColorScheme,
   View,
   Alert,
   TouchableOpacity,

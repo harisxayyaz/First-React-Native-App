@@ -8,17 +8,12 @@
 import React, {useState} from 'react';
 
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
   TouchableOpacity,
-  useColorScheme,
   View,
   Alert,
 } from 'react-native';
-import {get} from 'react-native/Libraries/TurboModule/TurboModuleRegistry';
 
 function task2() {
   const [getPassword, setPassword] = useState('Enter Password');
